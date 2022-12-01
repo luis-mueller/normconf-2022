@@ -1,4 +1,4 @@
-<img style="margin-bottom: 25px; display: block; margin-left: auto; margin-right: auto" width="90%" src="assets/NormConf_Logo.png"/>
+<img style="margin-bottom: 25px; display: block; margin-left: auto; margin-right: auto" width="60%" src="assets/NormConf_Logo.png"/>
 
 # Metrics Are Born At Sea But Stored in the Cloud
 
