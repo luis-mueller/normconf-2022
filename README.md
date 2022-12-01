@@ -1,3 +1,5 @@
+<img style="margin-bottom: 25px; display: block; margin-left: auto; margin-right: auto" width="90%" src="assets/NormConf_Logo.png"/>
+
 # Metrics Are Born At Sea But Stored in the Cloud
 
 [![pytorch](https://img.shields.io/badge/PyTorch_1.12.1+-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
