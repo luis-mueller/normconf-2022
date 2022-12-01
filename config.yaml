@@ -1,0 +1,14 @@
+hparams:
+
+  # 🤔 Here I'm using display names already,
+  # so there's no need to re-map them later.
+  Dataset: Enzymes
+  Model: Graph Convolution
+
+  # 🤔 Just a technical setting
+  seed: 0
+
+# Set your wandb credentials here
+wandb:
+  entity: lmueller
+  project: normconf
