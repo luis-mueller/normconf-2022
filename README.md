@@ -7,7 +7,7 @@
 [![black](https://img.shields.io/badge/Code%20Style-Black-black.svg?labelColor=gray)](https://black.readthedocs.io/en/stable/)
 [![license](https://img.shields.io/badge/License-MIT-green.svg?labelColor=gray)](https://github.com/ashleve/lightning-hydra-template#license)
 
-*Repository accompanying my [NormConf 2022](https://normconf.com/) [talk]().*
+*Repository accompanying my [NormConf 2022](https://normconf.com/) [talk](https://www.youtube.com/watch?v=JANC6DNJC0o).*
 
 ## Introduction
 In this repository you can retrace the design ideas from my talk with an end-to-end experiment, comparing [Graph Convolution](https://arxiv.org/abs/1609.02907) to [Graph Attention](https://arxiv.org/abs/1710.10903) on two small molecule classification datasets.
