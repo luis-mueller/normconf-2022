@@ -80,14 +80,13 @@ def main(cfg):
 
     print("Test:")
     model.eval()
-    for _ in (pbar := tqdm.tqdm(range(50))):
-        for batch in test_loader:
-            x = model(batch.x, batch.edge_index)
-            x = scatter_mean(x, batch.batch, dim=0)
-            preds = predictor(x)
-            acc = accuracy(preds, batch.y, "multiclass", num_classes=dim_out)
-            wandb.log({"Accuracy (test)": acc})
-            pbar.set_description(f"Accuracy: {float(acc):.3f}")
+    for batch in (pbar := tqdm.tqdm(test_loader)):
+        x = model(batch.x, batch.edge_index)
+        x = scatter_mean(x, batch.batch, dim=0)
+        preds = predictor(x)
+        acc = accuracy(preds, batch.y, "multiclass", num_classes=dim_out)
+        wandb.log({"Accuracy (test)": acc})
+        pbar.set_description(f"Accuracy: {float(acc):.3f}")
     wandb.finish()
 
 
